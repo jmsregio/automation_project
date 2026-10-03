@@ -1,0 +1,20 @@
+[
+  {
+    "hostname": "core-router-01",
+    "ip": "192.168.10.1",
+    "device_type": "Cisco IOS XE",
+    "location": "Datacenter Rack A1"
+  },
+  {
+    "hostname": "dist-switch-01",
+    "ip": "10.0.0.254",
+    "device_type": "Cisco Catalyst 9300",
+    "location": "Building 1 MDF"
+  },
+  {
+    "hostname": "sandbox-router",
+    "ip": "sandbox-iosxe-latest-1.cisco.com",
+    "device_type": "Cisco IOS XE Sandbox",
+    "location": "Cisco Cloud"
+  }
+]
