@@ -3,15 +3,6 @@
 ## Overview
 This project provides an automated health-checking script for Cisco network infrastructure. It reads target device parameters from a structured JSON inventory file, checks endpoint reachability over HTTPS/RESTCONF, displays a status summary in the terminal, and exports the final status records to a JSON output report.
 
-## Project Structure
-```text
-automation_project/
-│
-├── inventory.json    # Contains target device details (Hostname, IP, Type, Location)
-├── network_check.py  # Primary Python execution script
-├── README.md         # Project documentation and instructions
-└── output.json       # Generated output report containing device status (UP/DOWN)
-
 ## Features
 - **Dynamic Inventory Management**: Reads device parameters directly from `inventory.json`.
 - **Automated Health Monitoring**: Connects to multiple Cisco devices over HTTPS/RESTCONF to test reachability.
@@ -32,3 +23,12 @@ automation_project/
 - Python 3.10 or higher
 - Required Python modules:
   pip install requests urllib3
+
+## Project Structure
+```text
+automation_project/
+│
+├── inventory.json    # Contains target device details (Hostname, IP, Type, Location)
+├── network_check.py  # Primary Python execution script
+├── README.md         # Project documentation and instructions
+└── output.json       # Generated output report containing device status (UP/DOWN)
