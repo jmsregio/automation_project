@@ -11,7 +11,7 @@ automation_project/
 ├── network_check.py  # Primary Python execution script
 ├── README.md         # Project documentation and instructions
 └── output.json       # Generated output report containing device status (UP/DOWN)
-
+```
 ## Features
 - **Dynamic Inventory Management**: Reads device parameters directly from `inventory.json`.
 - **Automated Health Monitoring**: Connects to multiple Cisco devices over HTTPS/RESTCONF to test reachability.
